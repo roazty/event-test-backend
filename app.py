@@ -6,5 +6,5 @@ app = Flask(__name__)
 def getstatus():
     return jsonify({
         "isLive": True,
-        "eventName": "test global object"
+        "eventName": "EventObject"
     })
